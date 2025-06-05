@@ -8,6 +8,18 @@ module.exports = {
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
       },
+      animation: {
+        'gradient-x': 'gradient-x 10s ease infinite',
+      },
+      keyframes: {
+        'gradient-x': {
+          '0%, 100%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+        },
+      },
+      backgroundSize: {
+        '400': '400% 400%',
+      }
     },
   },
   plugins: [],

@@ -62,7 +62,7 @@ const extracurricular = [
 
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-100 via-purple-50 to-pink-100 p-12 font-sans">
+    <div className="min-h-screen bg-gradient-to-r from-purple-300 via-pink-300 to-yellow-300 bg-[length:400%_400%] animate-gradient-x p-12 font-sans">
       {/* Intro */}
       <section className="max-w-5xl mx-auto flex flex-col md:flex-row items-center mb-20 gap-10">
         <div className="flex-shrink-0">
