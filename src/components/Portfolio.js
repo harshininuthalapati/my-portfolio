@@ -7,6 +7,7 @@ const projects = [
     description:
       "It is designed to improve communication between university students/faculty and the administration. This platform enabled users to raise and track issues, improving transparency and response efficiency.",
     technologies: "HTML, CSS, JavaScript, React, SQL",
+    link: "https://drive.google.com/drive/folders/1wS8Yf5qUnx-rQgy3eT0cJYqs86UmN3a_?usp=drive_link",
   },
   {
     title: "Medical Store Management",
@@ -140,6 +141,16 @@ export default function Portfolio() {
                 <p className="text-sm font-medium text-purple-700">
                   Technologies: {proj.technologies}
                 </p>
+                {proj.link && (
+                  <a
+                    href={proj.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm text-blue-600 underline mt-2 inline-block"
+                  >
+                    🔗 View Project Files
+                  </a>
+                )}
               </div>
             </div>
           ))}
