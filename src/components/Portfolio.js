@@ -5,7 +5,7 @@ const projects = [
   {
     title: "HelpDesk Website",
     description:
-      "It is designed to improve communication between university students/faculty and the administration. This platform enabled users to raise and track issues, improving transparency and response efficiency. ",
+      "It is designed to improve communication between university students/faculty and the administration. This platform enabled users to raise and track issues, improving transparency and response efficiency.",
     technologies: "HTML, CSS, JavaScript, React, SQL",
   },
   {
@@ -25,7 +25,7 @@ const research = [
   {
     title: "Secret Communication through Image Steganography Using HSAJAYA and Modified Ballot Transform",
     description:
-      "In the field of cyber security, research was conducted to increase the security and embedding capacity of image steganography. ",
+      "In the field of cyber security, research was conducted to increase the security and embedding capacity of image steganography.",
   },
 ];
 
@@ -62,8 +62,8 @@ const extracurricular = [
 
 export default function Portfolio() {
   return (
-    <div className="min-h-screen bg-gradient-to-r from-purple-300 via-pink-300 to-yellow-300 bg-[length:400%_400%] animate-gradient-x p-12 font-sans">
-      {/* Intro */}
+    <div className="min-h-screen bg-gradient-to-r from-purple-300 via-pink-300 to-yellow-300 bg-400 animate-gradient-x p-12 font-sans">
+    {/* Intro */}
       <section className="max-w-5xl mx-auto flex flex-col md:flex-row items-center mb-20 gap-10">
         <div className="flex-shrink-0">
           <img
@@ -77,9 +77,11 @@ export default function Portfolio() {
             Harshini Nuthalapati
           </h1>
           <p className="text-lg text-gray-700">
-          I am a final-year B.Tech Computer Science and Engineering student with a CGPA of 9.22 and a strong passion for application development.
-          I enjoy building user-friendly, efficient software solutions that solve real-world problems.
-          I am also certified in Japanese NAT N4 level and actively preparing for N3.
+            I am a final-year B.Tech Computer Science and Engineering student
+            with a CGPA of 9.22 and a strong passion for application
+            development. I enjoy building user-friendly, efficient software
+            solutions that solve real-world problems. I am also certified in
+            Japanese NAT N4 level and actively preparing for N3.
           </p>
         </div>
       </section>
@@ -87,19 +89,22 @@ export default function Portfolio() {
       {/* Internships */}
       <section className="max-w-5xl mx-auto mb-20">
         <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 mb-10">
-          Internship Experiance
+          Internship Experience
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {internships.map((intern, i) => (
             <div
               key={i}
               tabIndex={0}
-              className="group bg-white rounded-xl shadow-lg p-6 border-4 border-transparent hover:border-gradient-to-r hover:from-purple-600 hover:to-pink-600 cursor-pointer transform transition duration-500 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-purple-300"
+              className="group relative bg-white rounded-xl shadow-lg p-6 border border-gray-200 hover:border-purple-600 cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-2xl overflow-hidden"
             >
-              <h3 className="text-2xl font-semibold mb-2 group-hover:text-purple-700">
-                {intern.title}
-              </h3>
-              <p className="text-gray-600">{intern.description}</p>
+              <span className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 opacity-0 group-hover:opacity-20 blur-lg transition duration-500 rounded-xl pointer-events-none"></span>
+              <div className="relative z-10">
+                <h3 className="text-2xl font-semibold mb-2 group-hover:text-purple-700">
+                  {intern.title}
+                </h3>
+                <p className="text-gray-600">{intern.description}</p>
+              </div>
             </div>
           ))}
         </div>
@@ -115,15 +120,18 @@ export default function Portfolio() {
             <div
               key={i}
               tabIndex={0}
-              className="group bg-white rounded-xl shadow-lg p-6 border-4 border-transparent hover:border-gradient-to-r hover:from-purple-600 hover:to-pink-600 cursor-pointer transform transition duration-500 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-purple-300"
+              className="group relative bg-white rounded-xl shadow-lg p-6 border border-gray-200 hover:border-purple-600 cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-2xl overflow-hidden"
             >
-              <h3 className="text-2xl font-semibold mb-2 group-hover:text-purple-700">
-                {proj.title}
-              </h3>
-              <p className="text-gray-600 mb-3">{proj.description}</p>
-              <p className="text-sm font-medium text-purple-700">
-                Technologies: {proj.technologies}
-              </p>
+              <span className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 opacity-0 group-hover:opacity-20 blur-lg transition duration-500 rounded-xl pointer-events-none"></span>
+              <div className="relative z-10">
+                <h3 className="text-2xl font-semibold mb-2 group-hover:text-purple-700">
+                  {proj.title}
+                </h3>
+                <p className="text-gray-600 mb-3">{proj.description}</p>
+                <p className="text-sm font-medium text-purple-700">
+                  Technologies: {proj.technologies}
+                </p>
+              </div>
             </div>
           ))}
         </div>
@@ -139,12 +147,15 @@ export default function Portfolio() {
             <div
               key={i}
               tabIndex={0}
-              className="group bg-white rounded-xl shadow-lg p-6 border-4 border-transparent hover:border-gradient-to-r hover:from-purple-600 hover:to-pink-600 cursor-pointer transform transition duration-500 hover:scale-105 hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-purple-300"
+              className="group relative bg-white rounded-xl shadow-lg p-6 border border-gray-200 hover:border-purple-600 cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-2xl overflow-hidden"
             >
-              <h3 className="text-2xl font-semibold mb-2 group-hover:text-purple-700">
-                {res.title}
-              </h3>
-              <p className="text-gray-600">{res.description}</p>
+              <span className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 opacity-0 group-hover:opacity-20 blur-lg transition duration-500 rounded-xl pointer-events-none"></span>
+              <div className="relative z-10">
+                <h3 className="text-2xl font-semibold mb-2 group-hover:text-purple-700">
+                  {res.title}
+                </h3>
+                <p className="text-gray-600">{res.description}</p>
+              </div>
             </div>
           ))}
         </div>
@@ -168,7 +179,6 @@ export default function Portfolio() {
       </section>
 
       {/* Extracurricular */}
-      {/* Extracurricular */}
       <section className="max-w-5xl mx-auto mb-20">
         <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 mb-10">
           Extracurricular
@@ -178,31 +188,18 @@ export default function Portfolio() {
             <div
               key={i}
               tabIndex={0}
-              className="group bg-white rounded-lg shadow-md p-6 flex items-start space-x-4 cursor-default
-                        transform transition duration-300 hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-purple-300"
+              className="group relative bg-white rounded-xl shadow-lg p-6 border border-gray-200 hover:border-purple-600 cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-2xl overflow-hidden"
             >
-              {/* Icon */}
-              <div className="flex-shrink-0 mt-1">
-                <svg
-                  className="w-8 h-8 text-purple-600 group-hover:text-pink-500 transition"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  aria-hidden="true"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+              <span className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 opacity-0 group-hover:opacity-20 blur-lg transition duration-500 rounded-xl pointer-events-none"></span>
+              <div className="relative z-10">
+                <p className="text-gray-700 text-lg leading-relaxed">
+                  {item}
+                </p>
               </div>
-
-              {/* Text */}
-              <p className="text-gray-700 text-lg leading-relaxed">{item}</p>
             </div>
           ))}
         </div>
       </section>
-
 
       {/* Back to top button */}
       <button

@@ -19,7 +19,7 @@ module.exports = {
       },
       backgroundSize: {
         '400': '400% 400%',
-      }
+      },
     },
   },
   plugins: [],
