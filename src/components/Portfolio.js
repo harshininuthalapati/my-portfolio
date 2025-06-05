@@ -83,6 +83,15 @@ export default function Portfolio() {
             solutions that solve real-world problems. I am also certified in
             Japanese NAT N4 level and actively preparing for N3.
           </p>
+          <div className="mt-4 flex flex-wrap justify-center md:justify-start gap-4 text-purple-700 text-lg font-medium">
+            <a href="mailto:harshini.3k3@gmail.com" className="hover:underline">📧 your-email@example.com</a>
+            <a href="https://github.com/harshininuthalapati" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              💻 GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/harshini-nuthalapati-35a932241/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              🔗 LinkedIn
+            </a>
+          </div>
         </div>
       </section>
 
