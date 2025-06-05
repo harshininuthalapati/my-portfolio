@@ -46,6 +46,11 @@ const internships = [
     description:
       "I played a key role in the development of a fully functional hotel booking website, gaining hands-on experience in user experience (UX) design, and front-end development.",
   },
+  {
+    title: "Artificial Intelligence Intern - Code Clause",
+    description:
+      "Worked on machine learning and deep learning projects under the guidance of senior data scientists. Gained hands-on experience in real-world AI applications, from data preprocessing to model development and evaluation.",
+  },
 ];
 
 const extracurricular = [
