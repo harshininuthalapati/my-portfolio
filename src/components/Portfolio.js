@@ -148,7 +148,7 @@ export default function Portfolio() {
                     rel="noopener noreferrer"
                     className="text-sm text-blue-600 underline mt-2 inline-block"
                   >
-                    🔗 View Project Files
+                    🔗 View Project demo
                   </a>
                 )}
               </div>
