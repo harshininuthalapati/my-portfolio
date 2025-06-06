@@ -85,7 +85,8 @@ export default function Portfolio() {
             Japanese NAT N4 level and actively preparing for N3.
           </p>
           <div className="mt-4 flex flex-wrap justify-center md:justify-start gap-4 text-purple-700 text-lg font-medium">
-            <a href="mailto:harshini.3k3@gmail.com" className="hover:underline">📧 Email</a>
+            {/* Replaced the mailto link with a simple span for the email address */}
+            <span className="text-gray-700">📧 harshini.3k3@gmail.com</span>
             <a href="https://github.com/harshininuthalapati" target="_blank" rel="noopener noreferrer" className="hover:underline">
               💻 GitHub
             </a>
