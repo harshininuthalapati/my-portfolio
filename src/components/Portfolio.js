@@ -7,7 +7,6 @@ const projects = [
     description:
       "It is designed to improve communication between university students/faculty and the administration. This platform enabled users to raise and track issues, improving transparency and response efficiency.",
     technologies: "HTML, CSS, JavaScript, React, SQL",
-    link: "https://drive.google.com/drive/folders/1wS8Yf5qUnx-rQgy3eT0cJYqs86UmN3a_?usp=drive_link",
   },
   {
     title: "Medical Store Management",
@@ -59,6 +58,7 @@ const extracurricular = [
   "TATA Crucible, The Campus Quiz 2023 - Participation Certificate",
   "Artificial Intelligence and Machine Learning Workshop - Learned Product Roadmap by AB Tech Ville",
   "Member of Entrepreneurship Cell - Group 'Saurvi' focusing on Women Empowerment; conducted workshops for rural women",
+  "Participated in the APP DEV 2.0 Workshop, organized by ADD Club, held at SRM University - AP.  ",
 ];
 
 export default function Portfolio() {
