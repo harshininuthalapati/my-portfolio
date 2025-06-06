@@ -142,16 +142,6 @@ export default function Portfolio() {
                 <p className="text-sm font-medium text-purple-700">
                   Technologies: {proj.technologies}
                 </p>
-                {proj.link && (
-                  <a
-                    href={proj.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm text-blue-600 underline mt-2 inline-block"
-                  >
-                    🔗 View Project demo
-                  </a>
-                )}
               </div>
             </div>
           ))}
