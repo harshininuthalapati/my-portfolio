@@ -14,6 +14,12 @@ const projects = [
       "Maintains customer, supplier, and medicine records for a medical store to increase operational efficiency and avoid errors.",
     technologies: "C++",
   },
+  {
+    title: "Escape From the House: A Text-Based Survival Adventure",
+    description:
+      "Developed a text-based Python adventure game with room navigation, inventory system, and win/loss logic. Used conditionals, loops, and dictionaries to create interactive gameplay and item-based progression.",
+    technologies: "Python",
+  }
 ];
 
 const research = [
